@@ -1,5 +1,9 @@
 # Azure AD B2C change-log
 
+## November, 2020
+
+-  Learn how to transfer the Azure AD B2C auditing logs to an Azure Log Analytics workspace, and [create a dashboard or create alerts that are based on Azure AD B2C users' activities](https://docs.microsoft.com/azure/active-directory-b2c/azure-monitor). 
+
 ## October, 2020
 
 - [Use API connectors to customize and extend sign-up user flows](https://docs.microsoft.com/en-us/azure/active-directory-b2c/api-connectors-overview)
