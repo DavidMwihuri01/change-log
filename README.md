@@ -8,20 +8,20 @@
 ## October, 2020
 
 - [Use API connectors to customize and extend sign-up user flows](https://docs.microsoft.com/azure/active-directory-b2c/api-connectors-overview)
-- [User phone number read and write MS Graph API](https://docs.microsoft.com/azure/active-directory-b2c/microsoft-graph-operations#user-phone-number-management)
-- [User input validation delay](https://docs.microsoft.com/azure/active-directory-b2c/self-asserted-technical-profile#metadata) setting.inputVerificationDelayTimeInMilliseconds
-- [display control UI new localization](https://docs.microsoft.com/azure/active-directory-b2c/localization-string-ids#verification-display-control-user-interface-elements) you can localized  each display control separately, and have move options, such as message to display after the email is verified. 
-- [SubJourneys](https://docs.microsoft.com/azure/active-directory-b2c/subjourneys)
-- [ID token hint](https://docs.microsoft.com/azure/active-directory-b2c/id-token-hint)
+- [User phone number CRUD operations MS Graph API](https://docs.microsoft.com/azure/active-directory-b2c/microsoft-graph-operations#user-phone-number-management)
+- [User input validation delay](https://docs.microsoft.com/azure/active-directory-b2c/self-asserted-technical-profile#metadata) using `setting.inputVerificationDelayTimeInMilliseconds` metadata.
+- [Display control UI new localization](https://docs.microsoft.com/azure/active-directory-b2c/localization-string-ids#verification-display-control-user-interface-elements) format. 
+- [SubJourneys](https://docs.microsoft.com/azure/active-directory-b2c/subjourneys) can be used to organize and simplify the flow of orchestration steps within a user journey.
+- [ID token hint](https://docs.microsoft.com/azure/active-directory-b2c/id-token-hint) allows relying party applications to send an inbound JWT as part of the OAuth2 authorization request. 
 - [Documentation]
    - Provide optional claims to your app, [user flow](https://docs.microsoft.com/azure/active-directory-b2c/configure-tokens#provide-optional-claims-to-your-app) and [custom policy](https://docs.microsoft.com/azure/active-directory-b2c/configure-tokens-custom-policy#provide-optional-claims-to-your-app)
    - [Localization XML samples](https://docs.microsoft.com/azure/active-directory-b2c/localization-string-ids#sign-up-or-sign-in-example)
-   - [Configure Application Insights in Production for error handling](https://docs.microsoft.com/azure/active-directory-b2c/troubleshoot-with-application-insights#configure-application-insights-in-production)
-   - [Data residency, adding link to the remote profile solution](https://docs.microsoft.com/azure/active-directory-b2c/data-residency#remote-profile-solution)
+   - Configure Application Insights in Production for [error handling](https://docs.microsoft.com/azure/active-directory-b2c/troubleshoot-with-application-insights#configure-application-insights-in-production)
+   - [Remote profile solution](https://docs.microsoft.com/azure/active-directory-b2c/data-residency#remote-profile-solution) allows you to store and read user profiles from a remote database.
    - [Using application Id in the scope](https://docs.microsoft.com/azure/active-directory-b2c/access-tokens#openid-connect-scopes)
    - [Facebook app registration new steps](https://docs.microsoft.com/azure/active-directory-b2c/identity-provider-facebook)
    - [Migrating to page layout sample](https://docs.microsoft.com/azure/active-directory-b2c/contentdefinitions#migrating-to-page-layout)
-   - [Add AD FS as a SAML identity provider troubleshooting](https://docs.microsoft.com/azure/active-directory-b2c/identity-provider-adfs2016-custom?tabs=app-reg-ga#troubleshooting-ad-fs-service)
+   - Add AD FS as a SAML identity provider [troubleshooting](https://docs.microsoft.com/azure/active-directory-b2c/identity-provider-adfs2016-custom?tabs=app-reg-ga#troubleshooting-ad-fs-service)
 - SAML Protocol
    - [SAML IDP initiated support](https://docs.microsoft.com/azure/active-directory-b2c/connect-with-saml-service-providers#enable-identity-provider-initiated-flow-optional)
    - [SAML token spec and customization](https://docs.microsoft.com/azure/active-directory-b2c/connect-with-saml-service-providers#saml-token)
@@ -117,7 +117,7 @@
 - [New] Azure AD B2C now provides support for managing the generation and verification of a one-time password. Use the [OTP technical profile](https://docs.microsoft.com/azure/active-directory-b2c/one-time-password-technical-profile) to generate a code, and then verify that code later.
 - [New] REST API technical profile, support of [JSON payload input claim](https://docs.microsoft.com/azure/active-directory-b2c/restful-technical-profile#send-a-json-payload)  
 - [New] REST API technical profile, support of sending bearer token that is stored in a policy key. Use `AuthenticationType` metadata to `Bearer`
-- [New] [GenerateJson](https://docs.microsoft.com/azure/active-directory-b2c/json-transformations) claims trnsfomation generates a complex JSON using input claim and input parameters.
+- [New] [GenerateJson](https://docs.microsoft.com/azure/active-directory-b2c/json-transformations) claims transformation generates a complex JSON using input claim and input parameters.
 - [New] Use [custom email](https://docs.microsoft.com/azure/active-directory-b2c/custom-email) in Azure AD B2C to send customized email to users that sign up to use your applications.
 
 ## November, 2019
