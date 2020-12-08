@@ -1,5 +1,11 @@
 # Azure AD B2C change-log
 
+## December, 2020
+
+- [Secure your REST API technical profile to use API key authentication](https://docs.microsoft.com/azure/active-directory-b2c/secure-rest-api#configure-your-rest-api-technical-profile-to-use-api-key-authentication)
+- Using custom policies, you can disable the sign out from federated identity providers, by setting the identity provider technical profile  [SingleLogoutEnabled](https://docs.microsoft.com/azure/active-directory-b2c/session-overview#sign-out) metadata.
+- Select your subscription when you [create an Azure AD B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-create-tenant) 
+
 ## November, 2020
 
 - [Set up phone sign-up and sign-in with custom policies in Azure AD B2C](https://docs.microsoft.com/azure/active-directory-b2c/phone-authentication)
