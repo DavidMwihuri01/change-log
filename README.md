@@ -2,7 +2,7 @@
 
 ## Jenuary, 2021
 
-- [Set up sign-up and sign-in with a ID.me account](https://docs.microsoft.com/azure/active-directory-b2c/identity-provider-id-me)
+- [Set up sign-up and sign-in with a ID.me account](https://docs.microsoft.com/azure/active-directory-b2c/identity-provider-id-me?pivots=b2c-custom-policy)
 - [Set up sign-up and sign-in with a Salesforce account using OpenId Connect](https://docs.microsoft.com/azure/active-directory-b2c/identity-provider-salesforce)
 
 ## December, 2020
