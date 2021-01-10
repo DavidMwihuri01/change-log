@@ -1,5 +1,10 @@
 # Azure AD B2C change-log
 
+## Jenuary, 2021
+
+- [Set up sign-up and sign-in with a ID.me account](https://docs.microsoft.com/azure/active-directory-b2c/identity-provider-id-me)
+- [Set up sign-up and sign-in with a Salesforce account using OpenId Connect](https://docs.microsoft.com/azure/active-directory-b2c/identity-provider-salesforce)
+
 ## December, 2020
 
 - [Secure your REST API technical profile to use API key authentication](https://docs.microsoft.com/azure/active-directory-b2c/secure-rest-api#configure-your-rest-api-technical-profile-to-use-api-key-authentication)
