@@ -4,6 +4,7 @@
 
 - [Set up a sign-in (only) flow](https://docs.microsoft.com/azure/active-directory-b2c/add-sign-in-policy?pivots=b2c-user-flow)
 - [Add an identity provider](https://docs.microsoft.com/azure/active-directory-b2c/add-identity-provider):
+   - [Set up the local account identity provider](https://docs.microsoft.com/en-us/azure/active-directory-b2c/identity-provider-local)
    - [Set up sign-up and sign-in with an Azure AD B2C account from another Azure AD B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/identity-provider-azure-ad-b2c)
    - [Set up sign-up and sign-in with a ID.me account](https://docs.microsoft.com/azure/active-directory-b2c/identity-provider-id-me?pivots=b2c-custom-policy)
    - [Set up sign-up and sign-in with a Salesforce account using OpenId Connect](https://docs.microsoft.com/azure/active-directory-b2c/identity-provider-salesforce)
