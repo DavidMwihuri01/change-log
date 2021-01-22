@@ -1,6 +1,6 @@
 # Azure AD B2C change-log
 
-## Jenuary, 2021
+## January, 2021
 
 - [Set up a sign-in (only) flow](https://docs.microsoft.com/azure/active-directory-b2c/add-sign-in-policy?pivots=b2c-user-flow)
 - [Add an identity provider](https://docs.microsoft.com/azure/active-directory-b2c/add-identity-provider):
