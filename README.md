@@ -2,6 +2,7 @@
 
 ## January, 2021
 
+- [Azure AD B2C service limits and restrictions](https://docs.microsoft.com/azure/active-directory-b2c/service-limits)
 - New MS Graph operation allows you to configure the [the email address that can be used by a username sign-in account to reset the password](https://docs.microsoft.com/azure/active-directory-b2c/microsoft-graph-operations#self-service-password-reset-email-address-beta)
 - [Set up a sign-in (only) flow](https://docs.microsoft.com/azure/active-directory-b2c/add-sign-in-policy?pivots=b2c-user-flow)
 - [Add an identity provider](https://docs.microsoft.com/azure/active-directory-b2c/add-identity-provider):
